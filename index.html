@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <title>Task Form</title>
+  </head>
+  <body>
+    <div class="form-content">
+    <form action="POST" id="myForm">
+      <label for="entry" id="entry">Name:</label>
+      <input type="text"  placeholder="Quincy Larson" />
+      <label for="entry" id="entry">Email:</label>
+      <input
+        type="email"
+        placeholder="abc@gmail.com"
+        pattern=" [a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*"
+        
+      />
+      <label for="entry" id="entry">Phone number:</label>
+      <input type="number" placeholder="+123 4567 890" />
+      <label for="entry" id="entry">Password:</label>
+      <input
+        type="password"
+        
+        placeholder="*********"
+        minlength="8"
+      />
+      <label for="entry" id="">Gender: </label> 
+      <select name="gender" id="gender">
+        <option value="" id="option">Select an option</option>
+        <option value="">Male</option>
+        <option value="">Female</option>
+      </select>
+      <button type="submit" id="submit">
+        SUBMIT
+      </button>
+      <div id="successMsg" style="display:none;">Form submitted successfully!</div>
+      </div> 
+  </form>
+  </body>
+</html>
