@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(136, 116, 116);
+    background-color: rgb(141, 120, 120);
     width: auto;
     padding: 50px;
 }
@@ -18,8 +18,9 @@ body {
     
 }
 
-#entry {
+#entry, #gndr {
     color: rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     padding: 9px;
 }
@@ -40,7 +41,7 @@ input, #gender {
     border: none;
     width: 300px;
     padding: 9px;
-    background-color: blanchedalmond;
+    background-color: rgb(235, 210, 172);
     outline: none;
 }
 
